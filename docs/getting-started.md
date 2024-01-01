@@ -53,7 +53,7 @@ Users can send friend requests to other users who have an open relationship with
 - [x] As a user, I can cancel friend requests that have been sent.
 - [x] As a user, I can unfriend other users in my friend list.
 
-### Endpoint APIs
+## Endpoint APIs
 
 ### Auth APIs
 

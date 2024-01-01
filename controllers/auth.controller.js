@@ -10,7 +10,7 @@ authController.loginWithEmail = catchAsync(async (req, res, next) => {
   let { email, password } = req.body;
 
   // Business logic validation
-  // to find based on email and along with password
+  // to find based on email along with only password
   let user = await User.findOne({ email }, "+password");
   if (!user) {
     throw new AppError(400, "Invalid credentials", "Login Error");
